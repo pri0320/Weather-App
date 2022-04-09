@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="search">
+        <input
+          type="search"
+          placeholder="City Name..."
+          autofocus
+          id="search"
+          class="searchTerm"
+          value=""
+        />
+        <button class="searchButton" type="button">Search</button>
+      </div>
+    </div>
+    <article class="widget">
+      <div class="weatherIcon">
+        <i class="wi wi-stars" id="select"></i>
+      </div>
+
+      <div class="weatherInfo">
+        <div class="temperature">
+          <span>Temp&deg;C</span>
+        </div>
+
+        <div class="description">
+          <div class="weatherCondition">summary</div>
+          <div class="place">City,  Country</div>
+        </div>
+      </div>
+
+      <div class="date">Date</div>
+
+      <!-- {/* our 4column section  */} -->
+      <div class="extra-temp">
+        <div class="temp-info-minmax">
+          <div class="two-sided-section">
+            <p>
+              <i class="wi wi-sunset"></i>
+            </p>
+            <p class="extra-info-leftside"
+            id="sunset">
+               <br />
+              Sunset
+            </p>
+          </div>
+
+          <div class="two-sided-section">
+            <p>
+              <i class="wi wi-humidity"></i>
+            </p>
+            <p class="extra-info-leftside"
+            id="humidity">
+               <br />
+              Humidity
+            </p>
+          </div>
+        </div>
+
+        <div class="weather-extra-info">
+          <div class="two-sided-section">
+            <p>
+              <i class="wi wi-rain"></i>
+            </p>
+            <p class="extra-info-leftside"
+            id="pressure">
+               <br />
+              Pressure
+            </p>
+          </div>
+
+          <div class="two-sided-section">
+            <p>
+              <i class="wi wi-strong-wind"></i>
+            </p>
+            <p class="extra-info-leftside"
+            id="wind">
+               <br />
+              Wind
+            </p>
+          </div>
+        </div>
+      </div>
+    </article>
+    -->
+
+    <script src="script.js"></script>
+    <!-- <script src="skycons.js"></script> -->
+  </body>
+</html>
